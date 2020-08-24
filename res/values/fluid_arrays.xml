@@ -149,11 +149,11 @@
         <item>@string/status_bar_date_format_custom</item>
     </string-array>
 
-    <!-- Network traffic location -->
-    <string-array name="network_traffic_location_entries">
-        <item>@string/traffic_disabled</item>
-        <item>@string/traffic_statusbar</item>
-        <item>@string/traffic_expanded_statusbar</item>
+    <!-- Network Traffic -->
+    <string-array name="network_traffic_location_entries" translatable="false">
+        <item>@string/network_traffic_location_disable</item>
+        <item>@string/network_traffic_location_statusbar</item>
+        <item>@string/network_traffic_location_quick_statusbar</item>
     </string-array>
 
     <string-array name="network_traffic_location_values" translatable="false">
@@ -162,20 +162,31 @@
         <item>2</item>
     </string-array>
 
-    <string-array name="show_network_traffic_type_entries" translatable="false">
-        <item>@string/show_network_traffic_combined</item>
-        <item>@string/show_network_traffic_dynamic</item>
-        <item>@string/show_network_traffic_up</item>
-        <item>@string/show_network_traffic_down</item>
-        <item>@string/show_network_traffic_all</item>
+    <string-array name="network_traffic_mode_entries" translatable="false">
+        <item>@string/network_traffic_mode_all</item>
+        <item>@string/network_traffic_mode_up</item>
+        <item>@string/network_traffic_mode_down</item>
     </string-array>
 
-    <string-array name="show_network_traffic_type_values" translatable="false">
-        <item>3</item>
-        <item>4</item>
+    <string-array name="network_traffic_mode_values" translatable="false">
+        <item>0</item>
         <item>1</item>
         <item>2</item>
-        <item>0</item>
     </string-array>
+
+    <string-array name="network_traffic_units_entries" translatable="false">
+        <item>@string/network_traffic_units_kilobits</item>
+        <item>@string/network_traffic_units_megabits</item>
+        <item>@string/network_traffic_units_kilobytes</item>
+        <item>@string/network_traffic_units_megabytes</item>
+    </string-array>
+
+    <string-array name="network_traffic_units_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
 
 </resources>
